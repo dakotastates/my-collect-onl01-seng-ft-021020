@@ -1,9 +1,10 @@
 def my_collect(collection)
   count = 0
+  new_collection = []
   while count < collection.length
   yield(collection[count])
   count += 1
 end
-collection
+new_collection
 end
 
